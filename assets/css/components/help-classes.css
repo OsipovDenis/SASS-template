@@ -1,0 +1,37 @@
+/*
+Error: Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 31 of F:\Materials\Junior developer PSD\StarterKitSass\assets\sass\components\help-classes.sass
+
+26:   list-style: none;
+27: }
+28: 
+29: //rows
+30: .row.no-gutters {
+31:    margin-right: 0;
+32:    margin-left: 0;
+33: }
+34: .row.no-gutters > [class^="col-"],
+35: .row.no-gutters > [class*=" col-"] {
+36:    padding-right: 0;
+
+Backtrace:
+F:\Materials\Junior developer PSD\StarterKitSass\assets\sass\components\help-classes.sass:31
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:473:in `block in tabulate'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:431:in `each'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:431:in `each_with_index'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:431:in `tabulate'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:396:in `_to_tree'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+D:/Program Files (x86)/Koala/bin/sass:18:in `load'
+D:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 31 of F:\Materials\Junior developer PSD\StarterKitSass\assets\sass\components\help-classes.sass\A \A 26:   list-style: none;\A 27: }\A 28: \A 29: //rows\A 30: .row.no-gutters {\A 31:    margin-right: 0;\A 32:    margin-left: 0;\A 33: }\A 34: .row.no-gutters > [class^=\"col-\"],\A 35: .row.no-gutters > [class*=\" col-\"] {\A 36:    padding-right: 0;"; }
